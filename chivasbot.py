@@ -879,7 +879,7 @@ def bot(op):
                                      "STKPKGID": "1",
                                      "STKVER": "100" }
                 ki.sendMessage(msg)
-            elif msg.text in ["Welcome"]:
+            elif msg.text in ["Wellcome"]:
                 msg.contentType = 7
                 msg.text = None
                 msg.contentMetadata = {
@@ -1568,7 +1568,7 @@ def bot(op):
                                 ki.sendText(msg.to,"Succes DExXone")
 #-----------------------------------------------
             elif msg.text in ["Test"]:
-                ki.sendText(msg.to,"Ok Cv 􀨁􀄻double thumbs up􏿿")
+                ki.sendText(msg.to,"Ok DExXone 􀨁􀄻double thumbs up􏿿")
 #-----------------------------------------------
             elif "Bc " in msg.text:
 				bctxt = msg.text.replace("Bc ","")
@@ -1588,7 +1588,7 @@ def bot(op):
                 ki.sendText(msg.to,"Have a nice dream Cv 􀜁􀅔Har Har􏿿")
             elif msg.text in ["Apa saya ganteng"]:
                 ki.sendText(msg.to,"Aku tidak tau 􀜁􀅔Har Har􏿿")
-            elif msg.text in ["/welcome"]:
+            elif msg.text in ["/wellcome"]:
                 ki.sendText(msg.to,"Selamat datang di DExXone Family Room")
                 kk.sendText(msg.to,"Jangan nakal ok!")
 #-----------------------------------------------
