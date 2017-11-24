@@ -1179,13 +1179,13 @@ def bot(op):
                     wait["comment"] = c
                     cl.sendText(msg.to,"changed\n\n" + c)
             elif msg.text in ["ã‚³ãƒ¡ãƒ³ãƒˆ:ã‚ªãƒ³","Comment on","Comment:on","è‡ªå‹•é¦–é ç•™è¨€ï¼šé–‹"]:
-                if wait["commentOn"] == True:
+                if wait["commentOn"] == False:
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"done")
                     else:
                         cl.sendText(msg.to,"already on")
                 else:
-                    wait["commentOn"] = True
+                    wait["commentOn"] = False
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"done")
                     else:
